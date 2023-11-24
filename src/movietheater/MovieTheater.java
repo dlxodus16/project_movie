@@ -1,0 +1,33 @@
+package movietheater;
+
+public class MovieTheater {
+	private int MOVIETHEATER_NO;
+	private String MOVIETHEATER_NAME;
+	private String MOVIETHEATER_CITY;
+	private String MOVIETHEATER_ADDRESS;
+	public int getMOVIETHEATER_NO() {
+		return MOVIETHEATER_NO;
+	}
+	public void setMOVIETHEATER_NO(int mOVIETHEATER_NO) {
+		MOVIETHEATER_NO = mOVIETHEATER_NO;
+	}
+	public String getMOVIETHEATER_NAME() {
+		return MOVIETHEATER_NAME;
+	}
+	public void setMOVIETHEATER_NAME(String mOVIETHEATER_NAME) {
+		MOVIETHEATER_NAME = mOVIETHEATER_NAME;
+	}
+	public String getMOVIETHEATER_CITY() {
+		return MOVIETHEATER_CITY;
+	}
+	public void setMOVIETHEATER_CITY(String mOVIETHEATER_CITY) {
+		MOVIETHEATER_CITY = mOVIETHEATER_CITY;
+	}
+	public String getMOVIETHEATER_ADDRESS() {
+		return MOVIETHEATER_ADDRESS;
+	}
+	public void setMOVIETHEATER_ADDRESS(String mOVIETHEATER_ADDRESS) {
+		MOVIETHEATER_ADDRESS = mOVIETHEATER_ADDRESS;
+	}
+
+}
